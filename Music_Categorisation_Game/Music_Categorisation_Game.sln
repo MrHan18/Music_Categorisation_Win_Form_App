@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31606.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Music_Categorisation_Game", "Music_Categorisation_Game\Music_Categorisation_Game.csproj", "{F514A0F5-A0B2-43B1-B9E2-710CB62C9FAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F514A0F5-A0B2-43B1-B9E2-710CB62C9FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F514A0F5-A0B2-43B1-B9E2-710CB62C9FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F514A0F5-A0B2-43B1-B9E2-710CB62C9FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F514A0F5-A0B2-43B1-B9E2-710CB62C9FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04A16862-7E7D-49E5-9FD4-8090B9A1AC14}
+	EndGlobalSection
+EndGlobal
