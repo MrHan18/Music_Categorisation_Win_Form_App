@@ -17,4 +17,18 @@ namespace Music_Categorisation_Game
             InitializeComponent();
         }
     }
+    class Player
+    {
+        public string Name {  get; set;}
+        public int score {  get; set;}
+
+    }
+    class player1 : Player
+    {
+
+    }
+    class player2 : Player
+    {
+
+    }
 }
