@@ -32,5 +32,19 @@ namespace Music_Categorisation_Game
             Page___GameMode2 op2 = new Page___GameMode2();
             op2.Show();
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+            CheckBox c1 = new CheckBox();
+            c1.Text = "Singleplayer";
+
+            CheckBox c2 = new CheckBox();
+            c2.Text = "Multiplayer";
+        }
     }
 }

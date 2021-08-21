@@ -16,5 +16,10 @@ namespace Music_Categorisation_Game
         {
             InitializeComponent();
         }
+
+        private void lblTimer_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
