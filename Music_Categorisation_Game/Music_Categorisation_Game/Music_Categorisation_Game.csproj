@@ -49,42 +49,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Page - GameMode1.cs">
+    <Compile Include="Forms\Page - GameMode1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Page - GameMode1.Designer.cs">
+    <Compile Include="Forms\Page - GameMode1.Designer.cs">
       <DependentUpon>Page - GameMode1.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginPage.cs">
+    <Compile Include="Forms\LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginPage.Designer.cs">
+    <Compile Include="Forms\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuPage.cs">
+    <Compile Include="Forms\MenuPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MenuPage.Designer.cs">
+    <Compile Include="Forms\MenuPage.Designer.cs">
       <DependentUpon>MenuPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Page - GameMode2.cs">
+    <Compile Include="Forms\Page - GameMode2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Page - GameMode2.Designer.cs">
+    <Compile Include="Forms\Page - GameMode2.Designer.cs">
       <DependentUpon>Page - GameMode2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LoginPage.resx">
+    <EmbeddedResource Include="Forms\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MenuPage.resx">
+    <EmbeddedResource Include="Forms\MenuPage.resx">
       <DependentUpon>MenuPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Page - GameMode1.resx">
+    <EmbeddedResource Include="Forms\Page - GameMode1.resx">
       <DependentUpon>Page - GameMode1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Page - GameMode2.resx">
+    <EmbeddedResource Include="Forms\Page - GameMode2.resx">
       <DependentUpon>Page - GameMode2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -110,5 +110,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

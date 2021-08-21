@@ -30,10 +30,10 @@ namespace Music_Categorisation_Game
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnGameMode1 = new System.Windows.Forms.Button();
-            this.btnGameMode2 = new System.Windows.Forms.Button();
-            this.btnClose = new System.Windows.Forms.Button();
             this.btnLogout = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnGameMode2 = new System.Windows.Forms.Button();
+            this.btnGameMode1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,23 +50,14 @@ namespace Music_Categorisation_Game
             this.panel1.Size = new System.Drawing.Size(383, 255);
             this.panel1.TabIndex = 0;
             // 
-            // btnGameMode1
+            // btnLogout
             // 
-            this.btnGameMode1.Location = new System.Drawing.Point(73, 75);
-            this.btnGameMode1.Name = "btnGameMode1";
-            this.btnGameMode1.Size = new System.Drawing.Size(100, 47);
-            this.btnGameMode1.TabIndex = 0;
-            this.btnGameMode1.Text = "GameMode 1";
-            this.btnGameMode1.UseVisualStyleBackColor = true;
-            // 
-            // btnGameMode2
-            // 
-            this.btnGameMode2.Location = new System.Drawing.Point(215, 75);
-            this.btnGameMode2.Name = "btnGameMode2";
-            this.btnGameMode2.Size = new System.Drawing.Size(100, 47);
-            this.btnGameMode2.TabIndex = 1;
-            this.btnGameMode2.Text = "GameMode 2";
-            this.btnGameMode2.UseVisualStyleBackColor = true;
+            this.btnLogout.Location = new System.Drawing.Point(201, 155);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(95, 34);
+            this.btnLogout.TabIndex = 4;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -78,14 +69,25 @@ namespace Music_Categorisation_Game
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // btnLogout
+            // btnGameMode2
             // 
-            this.btnLogout.Location = new System.Drawing.Point(201, 155);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(95, 34);
-            this.btnLogout.TabIndex = 4;
-            this.btnLogout.Text = "Logout";
-            this.btnLogout.UseVisualStyleBackColor = true;
+            this.btnGameMode2.Location = new System.Drawing.Point(215, 75);
+            this.btnGameMode2.Name = "btnGameMode2";
+            this.btnGameMode2.Size = new System.Drawing.Size(100, 47);
+            this.btnGameMode2.TabIndex = 1;
+            this.btnGameMode2.Text = "GameMode 2";
+            this.btnGameMode2.UseVisualStyleBackColor = true;
+            this.btnGameMode2.Click += new System.EventHandler(this.btnGameMode2_Click);
+            // 
+            // btnGameMode1
+            // 
+            this.btnGameMode1.Location = new System.Drawing.Point(73, 75);
+            this.btnGameMode1.Name = "btnGameMode1";
+            this.btnGameMode1.Size = new System.Drawing.Size(100, 47);
+            this.btnGameMode1.TabIndex = 0;
+            this.btnGameMode1.Text = "GameMode 1";
+            this.btnGameMode1.UseVisualStyleBackColor = true;
+            this.btnGameMode1.Click += new System.EventHandler(this.btnGameMode1_Click);
             // 
             // MenuPage
             // 

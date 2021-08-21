@@ -1,7 +1,7 @@
 ﻿
 namespace Music_Categorisation_Game
 {
-    partial class Form1
+    partial class Page___GameMode1
     {
         /// <summary>
         /// Required designer variable.

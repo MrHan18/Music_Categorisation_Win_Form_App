@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Music_Categorisation_Game
 {
-    public partial class MenuPage : Form
+    public partial class Page___GameMode1 : Form
     {
-        public MenuPage()
+        public Page___GameMode1()
         {
             InitializeComponent();
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
